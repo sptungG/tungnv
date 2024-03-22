@@ -7,8 +7,7 @@ export function Index() {
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    <div className="w-dvw h-dvh bg-slate-300">
-      <h1 className="text-3xl underline">HELLO</h1>
+    <div className="w-[100dvw] h-[100dvh] bg-slate-100">
       <Rc></Rc>
     </div>
   );

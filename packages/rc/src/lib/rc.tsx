@@ -5,7 +5,7 @@ export interface RcProps {}
 
 export function Rc(props: RcProps) {
   return (
-    <div>
+    <div className=''>
       <h1>Welcome to Rc!</h1>
     </div>
   );
