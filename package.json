@@ -1,47 +1,48 @@
 {
-  "name": "tungnv",
+  "name": "@tungnv/source",
   "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
   "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve -p 4002",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
-  },
   "dependencies": {
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/preset-classic": "3.1.1",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.0.0",
-    "prism-react-renderer": "^2.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "next": "^13.4.7",
+    "react": "18.2.0",
+    "react-aria-components": "1.1.1",
+    "react-dom": "18.2.0",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/tsconfig": "3.1.1",
-    "@docusaurus/types": "3.1.1",
-    "typescript": "~5.2.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
-    ]
-  },
-  "engines": {
-    "node": ">=18.0"
+    "@nx/eslint": "18.1.2",
+    "@nx/eslint-plugin": "18.1.2",
+    "@nx/js": "18.1.2",
+    "@nx/next": "^17.3.2",
+    "@nx/react": "18.1.2",
+    "@nx/rollup": "18.1.2",
+    "@nx/workspace": "18.1.2",
+    "@rollup/plugin-url": "^7.0.0",
+    "@svgr/rollup": "^8.0.1",
+    "@swc-node/register": "~1.8.0",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@swc/helpers": "~0.5.2",
+    "@types/node": "18.16.9",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "autoprefixer": "10.4.13",
+    "eslint": "~8.48.0",
+    "eslint-config-next": "^13.4.7",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "nx": "18.1.2",
+    "postcss": "8.4.21",
+    "prettier": "^2.6.2",
+    "swc-loader": "0.1.15",
+    "tailwindcss": "3.2.7",
+    "typescript": "~5.3.2"
   }
 }
